@@ -20,7 +20,7 @@ margem_lucro = (lucro_liquido / preco_venda) * 100
 print(f"A margem de lucro é de {margem_lucro:.2f}%")
 
 # Salvando os resultados em uma planilha do Excel
-nome_produto = 'Produto 1'
+nome_produto = str(input("Digite o nome do produto: "))
 
 resumo = [nome_produto, preco_compra, preco_venda, custos_adicionais, custo_medio_frete, lucro_liquido, margem_lucro]
 
